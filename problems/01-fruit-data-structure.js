@@ -69,7 +69,7 @@ console.log(indexFruitObject(17, fruits));
 */
 
 function indexFruitObject(index, fruits) {
-    // Your code here
+    return fruits[index];
 }
 
 
