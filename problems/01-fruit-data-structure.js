@@ -90,14 +90,13 @@ function fruitNames(fruits) {
 }
 
 /* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
-NOTE: Call a function you previously wrote as a helper function.
 
 // console.log(getFruitKeys(fruits));
 // // [ 'genus', 'name', 'id', 'family', 'order', 'nutritions' ];
 */
 
 function getFruitKeys(fruits) {
-    // Your code here
+    return Object.keys(fruits[0])
 }
 
 
