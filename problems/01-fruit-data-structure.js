@@ -110,7 +110,7 @@ console.log(getNutritionsKeys(fruits));
 */
 
 function getNutritionsKeys(fruits) {
-    // Your code here
+    return Object.keys(fruits[0].nutritions)
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
