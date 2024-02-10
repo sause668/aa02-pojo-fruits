@@ -84,7 +84,9 @@ console.log(fruitNames(fruits));
 */
 
 function fruitNames(fruits) {
-    // Your code here
+    return fruits.map(fruit => {
+        return fruit.name;
+    })
 }
 
 /* 05. `getFruitKeys()` - Return a list of all of the keys for each fruit record.
